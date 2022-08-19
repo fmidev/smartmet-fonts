@@ -10,7 +10,6 @@ URL: https://github.com/fmidev/smartmet-fonts
 Source0: %{name}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot-%(%{__id_u} -n)
 Provides: smartmet-fonts
-Conflicts: fmifonts <= 20.12.9
 
 %description
 Weather fonst used by SmartMet software
